@@ -16,3 +16,7 @@ React allows you to create re-usable and reactive components consisting of HTML 
 ## How is a Component Built?
 
 By combining HTML, CSS (least important part), and JavaScript
+
+## What are "props"?
+
+Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
