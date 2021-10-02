@@ -1,0 +1,45 @@
+/* CSS HEX */
+:root {
+  --white: #ffffffff;
+  --rich-black-fogra-29: #00171fff;
+  --prussian-blue: #003459ff;
+  --cg-blue: #007ea7ff;
+  --carolina-blue: #00a8e8ff;
+}
+
+.new-expense {
+  background-color: var(--cg-blue);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 23, 31, 1);
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: var(--rich-black-fogra-29);
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  background-color: var(--carolina-blue);
+}
+
+.new-expense button.alternative {
+  color: var(--rich-black-fogra-29);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #ddb3f8;
+}
