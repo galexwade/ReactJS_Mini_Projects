@@ -1,0 +1,18 @@
+/* CSS HEX */
+:root {
+  --white: #ffffffff;
+  --rich-black-fogra-29: #00171fff;
+  --prussian-blue: #003459ff;
+  --cg-blue: #007ea7ff;
+  --carolina-blue: #00a8e8ff;
+}
+
+.expenses {
+  padding: 1rem;
+  background-color: var(--white);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 23, 31, 1);
+}
