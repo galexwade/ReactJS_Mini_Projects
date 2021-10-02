@@ -1,14 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* CSS HEX */
+:root {
+  --white: #ffffffff;
+  --rich-black-fogra-29: #00171fff;
+  --prussian-blue: #003459ff;
+  --cg-blue: #007ea7ff;
+  --carolina-blue: #00a8e8ff;
+}
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: white;
+  background-color: var(--white);
 }

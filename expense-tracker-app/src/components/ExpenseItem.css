@@ -1,12 +1,21 @@
+/* CSS HEX */
+:root {
+  --white: #ffffffff;
+  --rich-black-fogra-29: #00171fff;
+  --prussian-blue: #003459ff;
+  --cg-blue: #007ea7ff;
+  --carolina-blue: #00a8e8ff;
+}
+
 .expense-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 8px rgba(0, 23, 31, 1);
   padding: 0.5rem;
   margin: 1rem 0;
-  border-radius: 12px;
-  background-color: #4b4b4b;
+  border-radius: 1rem;
+  background-color: var(--carolina-blue);
 }
 
 .expense-item__description {
@@ -20,7 +29,6 @@
 }
 
 .expense-item h2 {
-  color: #3a3a3a;
   font-size: 1rem;
   flex: 1;
   margin: 0 1rem;
@@ -31,10 +39,9 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #40005d;
-  border: 1px solid white;
+  background-color: var(--cg-blue);
   padding: 0.5rem;
-  border-radius: 12px;
+  border-radius: 1rem;
 }
 
 @media (min-width: 580px) {
